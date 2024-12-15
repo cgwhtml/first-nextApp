@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "./components/header";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -9,8 +12,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <h1>我是根</h1>
+      <body className={inter.className}>
+       <Header/>
         {children}
       </body>
     </html>

@@ -1,8 +1,8 @@
-import Hero from './components/hero';
+import Hero from '../components/hero';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'home',
+  title: 'performance',
 };
 export default function Page() {
   return (
@@ -10,9 +10,9 @@ export default function Page() {
       altTxt="Home Image"
       content="Professional Cloud Hosting"
       bgColor={{
-        from: 'from-indigo-600',
-        via: 'via-pink-600',
-        to: 'to-purple-700'
+        from: 'from-red-500',
+        via: 'via-orange-500',
+        to: 'to-yellow-500'
       }}
     />
   );
