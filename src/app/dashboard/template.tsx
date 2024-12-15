@@ -1,6 +1,5 @@
 // src/app/dashboard/layout/page.tsx
 'use client'
-import Link from "next/link";
 import { useState } from "react";
 
 export default function DashboardTemplate({ children }: { children: React.ReactNode }) {
