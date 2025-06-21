@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Comforter } from "next/font/google";
+import { ABeeZee } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
 
-const comforter = Comforter({ 
+const comforter = ABeeZee({ 
   subsets: ["latin"],
   weight: '400'
 });
